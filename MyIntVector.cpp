@@ -2,7 +2,6 @@
 #include <list>
 using namespace std;
 
-
 class MyIntVector {
 private:
     int* data;           // 동적 배열을 가리키는 포인터
