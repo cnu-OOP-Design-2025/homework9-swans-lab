@@ -31,7 +31,7 @@ jobs:
       with:
         test-name: Test9-2
         setup-command: "/bin/bash test9.sh"
-        command: cat Test/output9.txt
+        command: cat Test/output2.txt
         input: ''
         expected-output: "------------------\nResize: 2 -> 4\nResize: 4 -> 8\nIntVec:
           1 2 3 4 5 6 \nPop: 6\nPop: 5\nPop: 4\nPop: 3\nPop: 2\nPop: 1\n------------------\nResize:
